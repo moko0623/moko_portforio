@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Header
+-------------------------------*/
+#home{
+	background-color: #F4FEC8;
+	max-width: 1200px;
+}
+
+#work{
+	background-color: #F4FEC8;
+	max-width: 1200px;
+}
+
+header{
+	background-color: #4EA84F;
+}
+
+header .page-header logo{
+	width: 280px;
+}
+
+/*H2・H3を中央揃え*/
+#home h2{
+	text-align: center;
+	font-size: 1.750rem;
+	color: #D4FFAB;
+	background: #4EA84F;
+	border-radius: 20px;
+	max-width: 300px;
+    margin: 0 auto;
+    padding: 0 3%;
+}
+
+#home h3{
+	text-align: center;
+	color: #273E1B;
+	background: #8CD04D;
+	border-radius: 20px;
+	max-width: 200px;
+    margin: 0 auto;
+	margin-top: 10px;
+    padding: 0 3%;
+}
+
+/* Workのh1~h3編集 */
+
+#work h1{
+	text-align: center;
+	font-size: 2.5rem;
+	color: #278029;
+    margin: 10 auto;
+    padding: 10 3%;
+}
+
+#work h2{
+	text-align: center;
+	font-size: 1.75rem;
+	color: #154B0E;
+    margin: 10 auto;
+    padding: 10 3%;
+}
+
+#work h3{
+	text-align: center;
+	color: #000;
+    margin: 10 auto;
+    padding: 10 3%;
+}
+
+
+dt{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.125rem;
+}
+
+footer{
+	
+}
+
+footer{
+	background: #4EA84F;
+	text-align: center;
+	padding: 1px 0;
+	color: #AAF8AA;
+	font-size: 0.875rem;
+}
+/*メインロゴのサイズ・間隔*/
+.logo{
+	width: 280px;
+	margin-top: 14px;
+}
+/*メインナビ*/
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+	list-style: none;
+	line-height: 5;
+}
+
+/*メインナビの外側余白サイズ*/
+.main-nav li{
+	margin-left: 36px;
+	margin-right: 10px;
+}
+
+/*メインナビの文字色*/
+.main-nav a{
+	color: #D4FFAB;
+}
+
+/*カーソルを持っていくと変わる色*/
+.main-nav a:hover{
+	color: #00BBDD;
+}
+
+/*Headerロゴとナビを横並び*/
+.page-header{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+/*コンテンツの最大幅を設定*/
+.wrapper{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/*TOPロゴを中央に*/
+.top_logo{
+	text-align: center;
+}
+
+
+.item{
+	color: #000000;
+	margin: 10px;
+	padding: 10px;
+	flex-wrap: wrap;
+	
+}
+
+.container_1{
+	display: flex;
+	justify-content: center;
+	max-width: 900px;
+	margin: 0 auto;
+    padding: 0 4%;
+}
+
+.more{
+	text-align: center;
+	color: #498D31;
+	background: #C4FF8D;
+	border-radius: 20px;
+	max-width: 100px;
+    margin: 0 auto;
+	margin-top: 10px;
+    padding: 0 3%;
+	font-weight: bold;
+}
+
+.container_2{
+	display: flex;
+	justify-content: center;
+	max-width: 900px;
+	margin: 0 auto;
+    padding: 0 4%;
+}
+
+.about{
+	display: flex;
+	max-width: 700px;
+	margin: auto;
+}
+
+.arufa{
+	text-align: center;
+}
+
+.myphoto{ 
+	width: 35%;
+	text-align: center;
+}
+
+.SideBySide{
+	width: 65%;
+}
+
+.SideBySide p{
+	vertical-align: left;
+	max-width: 100%;
+	padding: 0 4%;
+}
+
+dd{
+	margin-left: 0;
+}
+
+.photo{ 
+	width: 70%;
+	text-align: center;
+	padding-right: 1.5em;
+}
+
+.top{
+	width: 100%;
+	text-align: center;
+}
+
+.container{
+	display: flex;
+	max-width: 900px;
+	margin: 10px auto;
+}
+
+.container2{
+	display: flex;
+	max-width: 900px;
+	margin: 15px auto;
+}
+
+.html{
+	text-align: right;
+	max-width: 900px;
+}
+
+.kamp{
+	margin: auto;
+	height: auto;
+}
+
+h1 .work{
+	text-align: center;
+	font-size: 1.750rem;
+	color: #D4FFAB;
+	background: #4EA84F;
+	border-radius: 20px;
+	max-width: 300px;
+    margin: 0 auto;
+    padding: 0 3%;
+}
+
+.SideBySide2{
+	width: 30%;
+}
+
+#work img{
+	width: 80%;
+}
+
+.moji{
+	width: 70%;
+}
+
+.midashi{
+	background-color: #84CD83;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 900px;
+}
